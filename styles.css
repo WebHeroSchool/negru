@@ -19,6 +19,9 @@ body {
   display: flex;
   align-items: center;
 }
+.menu_item{
+  margin-right: 10px;
+}
 .menu-item:last-child {
   padding-right: 0;
 }
