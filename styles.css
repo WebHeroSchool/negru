@@ -11,16 +11,17 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 7vw;
 }
 .logo {
   position: relative;
   padding: 40px 0;
-  padding-left: 44px;
+  padding-left: 49px;
   font-family: pt_serif,arial,helvetica,sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 31px;
+  letter-spacing: 1px;
 }
 .logo__circle{
   position: absolute;
