@@ -51,7 +51,7 @@ body {
 }
 .menu__item{
   position: relative;
-  margin-right: 22px;
+  margin-right: 27px;
   font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
   color: #000;
   text-decoration: none;
@@ -138,6 +138,58 @@ body {
 .checkbox {
   display: none;
 }
+@media (max-width:1366px)  {
+  .wrapper{
+    width: 68%;
+  }
+  .menu__item{
+    font: 500 14px/21px Roboto,arial,helvetica,sans-serif;
+    margin-right: 25px;
+  }
+  .menu{
+    margin: 5px 0px 0px 0px;
+  }
+  .menu__item:last-child {
+    margin-right: 6px;
+  }
+  .main{
+    background-size: 37vw;
+    padding: 1vw 50% 100px 0;
+  }
+  .main__title{
+    font: bold 49px/65px pt_serif,arial,helvetica,sans-serif;
+    margin: 5px 0px 42px 0px;
+  }
+  .main__title-text_highlight {
+    font: bold 49px/65px pt_serif,arial,helvetica,sans-serif;
+  }
+  .main__subtitle{
+    font: 18px/21px Roboto,arial,helvetica,sans-serif;
+    margin: 0px 0px 41px 0px;
+  }
+  .main__button{
+    font: 14px/25px Roboto,arial,helvetica,sans-serif;
+    padding: 9px 25px 10px 13px;
+  }
+  .header{
+    margin-bottom: 6vw;
+  }
+}
+@media (max-width:1024px)  {
+  .wrapper{
+    width: 92%;
+  }
+  .main{
+    background-size: 51vw;
+    padding: 3vw 49% 100px 0;
+  }
+  .main__subtitle{
+    margin: 0px 0px 40px 6px;
+  }
+  .main__button{
+    padding: 11px 29px 8px 16px;
+  }
+}
 @media (max-width:768px) {
   .wrapper {
     margin: 0 37px;
@@ -214,10 +266,11 @@ body {
 }
 #checkbox_id:checked ~ .menu{
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  padding-top: 46vw;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   position: fixed;
   top: 0px;
@@ -240,20 +293,48 @@ body {
   }
 .menu__item {
     display: block;
-    padding: 12px 24px;
+    padding: 20px;
     color: #333;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 17px;
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
   }
-  .menu__item:hover {
+.menu__item:last-child {
+    padding: 18px;
+    margin-right: 22px;
+}
+.menu__item:hover {
     background-color: #CFD8DC;
   }
-  .checkbox{
+.checkbox{
     display: flex;
     justify-content: space-between;
     align-items:center;
   }
 }
+@media (max-width:375px) {
+  .wrapper {
+    width: 80%;
+  }
+@media (max-width:360px) {
+    .wrapper {
+      width: 77%;
+  }
+@media (max-width:320px) {
+    .main{
+      background-size: 77%;
+      padding: 57% 0 0;
+    }
+    .main__title{
+      font: bold 23px/28px pt_serif, arial, helvetica, sans-serif;
+    }
+    .main__subtitle{
+      font: 500 13px/15px Roboto, arial, helvetica, sans-serif;
+    }
+    .main__button{
+      font: 500 11px/12px Roboto, arial, helvetica, sans-serif;
+    }
+  }
