@@ -147,21 +147,23 @@ body {
     margin-right: 25px;
   }
   .menu{
-    margin: 5px 0px 0px 0px;
+    margin: 5px 4px 0px 0px;
   }
   .menu__item:last-child {
-    margin-right: 6px;
+    margin-right: 3px;
   }
   .main{
     background-size: 37vw;
     padding: 1vw 50% 100px 0;
   }
   .main__title{
-    font: bold 49px/65px pt_serif,arial,helvetica,sans-serif;
-    margin: 5px 0px 42px 0px;
+    font: bold 49px/73px pt_serif,arial,helvetica,sans-serif;
+    margin: 11px 0px 37px 1px;
+    line-height: 6.5vw;
   }
   .main__title-text_highlight {
-    font: bold 49px/65px pt_serif,arial,helvetica,sans-serif;
+    font: bold 48px/50px pt_serif,arial,helvetica,sans-serif;
+    margin: 6px;
   }
   .main__subtitle{
     font: 18px/21px Roboto,arial,helvetica,sans-serif;
