@@ -97,7 +97,7 @@ body {
   width: 100%;
 }
 .main{
-  padding:4vw 66% 100px 0;
+  padding:4vw 66% 160px 0;
   background: top right no-repeat url(img/mainImg.svg);
   background-size: 41vw,34vw;
 }
@@ -138,6 +138,61 @@ body {
 .checkbox {
   display: none;
 }
+@media (max-width:1898px)  {
+  .wrapper{
+    width: 81%;
+  }
+}
+@media (max-width:1830px)  {
+  .wrapper{
+    width: 84%;
+  }
+}
+@media (max-width:1526px)  {
+  .main {
+    padding: 3vw 58% 160px 0;
+  }
+  .main__title{
+    line-height: 5.5vw;
+  }
+}
+@media (max-width:1464px)  {
+  .main {
+    padding: 3vw 57% 160px 0;
+  }
+  .main__subtitle{
+    line-height: 1;
+  }
+}
+@media (max-width:1430px)  {
+  .wrapper{
+    width: 85%;
+ }
+}
+@media (max-width:1408px)  {
+  .wrapper{
+    width: 86%;
+ }
+}
+@media (max-width:1395px)  {
+  .main{
+    padding: 1vw 56% 160px 0;
+  }
+  .main__title{
+    font: bold 60px/73px pt_serif,arial,helvetica,sans-serif;
+  }
+  .main__title-text_highlight {
+      font: bold 60px/50px pt_serif,arial,helvetica,sans-serif;
+      margin: 6px;
+  }
+  .main__subtitle{
+    font: 20px/21px Roboto,arial,helvetica,sans-serif;
+    margin: 0px 0px 41px 0px;
+  }
+  .main__button{
+    font: 16px/25px Roboto,arial,helvetica,sans-serif;
+  }
+}
 @media (max-width:1366px)  {
   .wrapper{
     width: 68%;
@@ -175,6 +230,34 @@ body {
   }
   .header{
     margin-bottom: 6vw;
+  }
+}
+@media (max-width:1360px)  {
+  .wrapper{
+    width: 77%;
+  }
+}
+@media (max-width:1144px)  {
+  .wrapper{
+    width: 75%;
+  }
+}
+@media (max-width:1052px)  {
+  .wrapper{
+    width: 76%;
+  }
+  .main__title{
+    font: bold 40px/43px pt_serif,arial,helvetica,sans-serif;
+  }
+  .main__title-text_highlight {
+      font: bold 40px/43px pt_serif,arial,helvetica,sans-serif;
+  }
+  .main__subtitle{
+    font: 15px/18px Roboto,arial,helvetica,sans-serif;
+    margin: 0px 0px 41px 0px;
+  }
+  .main__button{
+    font: 12px/15px Roboto,arial,helvetica,sans-serif;
   }
 }
 @media (max-width:1024px)  {
@@ -324,9 +407,27 @@ body {
     display: none;
 }
 }
+@media (max-width:748px) {
+  .main {
+  text-align: center;
+  padding: 69% 0 0;
+  background-size: 75%;
+}
+  .main__subtitle{
+    margin: 0 0 27px 67px;
+  }
+}
 @media (max-width:648px) {
-    .main__subtitle{
-    margin: 0 0 27px 63px;
+    .wrapper{
+      width: 88%;
+    }
+}
+@media (max-width:456px) {
+    .wrapper{
+      width: 81%;
+    }
+    .main__subtitle {
+    margin: 0 0 27px 38px;
 }
 }
 @media (max-width:375px) {
