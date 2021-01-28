@@ -257,7 +257,7 @@ body {
     font: 12px/15px Roboto,arial,helvetica,sans-serif;
   }
 }
-@media (max-width:1023px)  {
+@media (max-width:1024px)  {
   .wrapper{
     width: 92%;
   }
