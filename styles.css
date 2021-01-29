@@ -138,7 +138,7 @@ body {
  @keyframes si-button-pulse {
     from {box-shadow: 0 0 8px 6px blue, 0 0 12px 14px blue;
     }
-    to {box-shadow: 0 0 10px 4px rgba(255, 48, 26, 0), 0 0 5px 30px rgba(255, 48, 26, 0);
+    to {box-shadow: 0 0 10px 4px rgba(254, 48, 26, 0), 0 0 5px 30px rgba(254, 48, 26, 0);
     }
    }
 #checkbox_id {
