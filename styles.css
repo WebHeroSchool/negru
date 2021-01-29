@@ -116,9 +116,9 @@ body {
   margin: 0px 86px 44px 5px;
   letter-spacing: 0.2px;
 }
-.main__button{
+.main__button {
   display: inline-block;
-  font: 18px/25px Roboto,arial,helvetica,sans-serif;
+  font: 18px/25px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 14px 35px 15px 21px;
@@ -126,10 +126,21 @@ body {
   border-radius: 4px;
   transition: opacity .5s;
   margin-left: 4px;
-}
-.main__button:hover{
-  opacity: .5;
-}
+  overflow: visible !important;
+  }
+ .main__button:hover {
+   box-shadow: none;
+   -webkit-animation: si-button-pulse 1s 0s ease-out 2;
+   -moz-animation: si-button-pulse 1s 0s ease-out 2;
+   animation: si-button-pulse 1s 0s ease-out 2;
+   overflow: hidden;
+   }
+ @keyframes si-button-pulse {
+    from {box-shadow: 0 0 8px 6px blue, 0 0 12px 14px blue;
+    }
+    to {box-shadow: 0 0 10px 4px rgba(254, 48, 26, 0), 0 0 5px 30px rgba(254, 48, 26, 0);
+    }
+   }
 #checkbox_id {
  display: none;
  }
