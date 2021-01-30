@@ -297,6 +297,13 @@ body {
    margin: 3px 1px 0px 0px;
   }
 }
+@media (max-width:941px) {
+ .main__title{
+   font: bold 46px/58px pt_serif,arial,helvetica,sans-serif;
+ }
+ .main__title-text_highlight{
+   font: bold 46px/40px pt_serif,arial,helvetica,sans-serif;
+ }
 @media (max-width:768px) {
  .wrapper {
    margin: 0 37px;
